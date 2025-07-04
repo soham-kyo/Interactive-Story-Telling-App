@@ -1,0 +1,93 @@
+.app-container {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  padding: 40px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.app-container.light {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.app-container.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+.story-container {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.app-container.dark .story-container {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.story-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.story-text {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.choice-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: #ffb347;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.choice-button:hover {
+  background-color: #ff9966;
+  transform: scale(1.05);
+}
+
+.input-name {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+  margin-bottom: 15px;
+  width: 60%;
+}
+
+.story-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  color: inherit;
+  border: 2px solid currentColor;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
