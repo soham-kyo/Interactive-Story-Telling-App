@@ -14,6 +14,11 @@ console.log("MONGO_URI:", process.env.MONGO_URI);
 app.use(cors());
 app.use(express.json());
 
+// Root route for health check
+app.get("/", (req, res) => {
+  res.send("API is running!");
+});
+
 // Routes
 app.use("/api/stories", storyRoutes);
 

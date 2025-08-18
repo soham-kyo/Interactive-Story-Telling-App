@@ -49,7 +49,7 @@ const forestStory = {
   temple: {
     text: "The ancient temple whispers secrets of old.",
     emoji: "⛩️",
-    image: "Secrets.jpg",
+    image: "/Secrets.jpg",
     choices: [],
   },
   mountain: {
