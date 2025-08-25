@@ -32,11 +32,11 @@ yj
 <div align="center">
 
 ```ascii
-    ╔══════════════════════════════════════╗
-    ║  🌙 DARK/LIGHT MODE  │  🎭 MULTIPLE ENDINGS  ║
-    ║  📱 RESPONSIVE UI    │  ⚡ REAL-TIME UPDATES ║
-    ║  🚀 MERN STACK      │  🎨 BEAUTIFUL DESIGN  ║
-    ╚══════════════════════════════════════╝
+    ╔═══════════════════════════════════════════════╗
+    ║  🌙 DARK/LIGHT MODE  │  🎭 MULTIPLE ENDINGS   ║
+    ║  📱 RESPONSIVE UI    │  ⚡ REAL-TIME UPDATES  ║
+    ║  🚀 MERN STACK       │  🎨 BEAUTIFUL DESIGN   ║
+    ╚═══════════════════════════════════════════════╝
 ```
 
 </div>
