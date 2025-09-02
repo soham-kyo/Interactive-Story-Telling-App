@@ -1,10 +1,10 @@
 # 🌟 Interactive Storytelling App
-### *Where Every Choice Writes Your Destiny*
+
+### _Where Every Choice Writes Your Destiny_
 
 <div align="center">
 
 ![Typing Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&duration=3000&pause=800&color=FF6B35&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=🏰+CHOOSE+YOUR+ADVENTURE;🎭+CRAFT+YOUR+DESTINY;🚀+MERN+POWERED+EXPERIENCE;✨+MULTIPLE+ENDINGS+AWAIT)
-
 
 </div>
 yj
@@ -12,7 +12,7 @@ yj
 
 <div align="center">
 
-### 🏆 *Featured Project* | ⭐ *Interactive Experience* | 🎯 *MERN Stack Excellence*
+### 🏆 _Featured Project_ | ⭐ _Interactive Experience_ | 🎯 _MERN Stack Excellence_
 
 </div>
 
@@ -76,5 +76,15 @@ yj
 </table>
 
 </div>
+
+---
+
+## 🎮 How It Works
+
+1.⁠ ⁠*Story Initialization* - Backend seeds MongoDB with interactive story data from ⁠ forestStoryData.js ⁠
+2.⁠ ⁠*User Interface* - React frontend renders the story through ⁠ StoryScreen.js ⁠ component  
+3.⁠ ⁠*Choice Navigation* - Users select from multiple choices that determine story progression
+4.⁠ ⁠*Dynamic Endings* - Different choice combinations lead to unique story conclusions
+5.⁠ ⁠*Theme Toggle* - Users can switch between dark and light modes for optimal reading experience
 
 ---
