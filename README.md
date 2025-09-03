@@ -7,7 +7,7 @@
 ![Typing Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&duration=3000&pause=800&color=FF6B35&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=🏰+CHOOSE+YOUR+ADVENTURE;🎭+CRAFT+YOUR+DESTINY;🚀+MERN+POWERED+EXPERIENCE;✨+MULTIPLE+ENDINGS+AWAIT)
 
 </div>
-yj
+
 ---
 
 <div align="center">
