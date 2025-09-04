@@ -75,7 +75,7 @@ function StoryScreen() {
         {showInput ? (
           <>
             <h1 className="story-title">
-              {currentNode.emoji} Adventure Begins {currentNode.emoji}
+              {currentNode.emoji} Forest Story {currentNode.emoji}
             </h1>
             <p className="story-text">What is your name, brave traveler?</p>
             <input
@@ -83,7 +83,7 @@ function StoryScreen() {
               value={playerName}
               onChange={(e) => setPlayerName(e.target.value)}
               className="input-name"
-              placeholder="Enter your name"
+              placeholder="Enter your name..."
             />
             <button className="choice-button" onClick={handleStart}>
               Start Adventure

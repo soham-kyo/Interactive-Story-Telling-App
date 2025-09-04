@@ -4,17 +4,16 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 
 const storyRoutes = require("./routes/storyRoutes");
-console.log("storyRoutes is:", storyRoutes);
+console.log("👉🏻 storyRoutes is:", storyRoutes);
 
 const app = express();
 const PORT = process.env.PORT || 5001;
-console.log("🔥 Server.js starting...");
-console.log("MONGO_URI:", process.env.MONGO_URI);
+console.log("🔥 Server.js starting... 🔥");
+console.log("⚠️ MONGO_URI:", process.env.MONGO_URI, "⚠️");
 // Middlewares
 app.use(cors());
 app.use(express.json());
 
-// Root route for health check
 app.get("/", (req, res) => {
   res.send("API is running!");
 });
@@ -29,9 +28,9 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    console.log("✅ Connected to MongoDB Atlas");
+    console.log("✅ Connected to MongoDB Atlas ✅");
     app.listen(PORT, () =>
-      console.log(`🚀 Server running on http://localhost:${PORT}`)
+      console.log(`🚀 Server running on http://localhost:${PORT} 🚀`)
     );
   })
-  .catch((err) => console.error("❌ MongoDB connection error:", err));
+  .catch((err) => console.error("❌ MongoDB connection error:", err, "❌"));

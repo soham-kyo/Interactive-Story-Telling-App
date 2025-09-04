@@ -9,15 +9,15 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(async () => {
-    console.log("Connected to MongoDB Atlas");
+    console.log("✅✅ Connected to MongoDB Atlas ✅✅");
     await Story.deleteMany({});
     const newStory = new Story({
       title: "Forest Adventure",
       data: forestStory,
     });
     await newStory.save();
-    console.log("✅ Story inserted!");
+    console.log("⚡︎ Story inserted! ⚡︎");
     mongoose.disconnect();
   })
   .catch((err) => console.error("Error:", err));
-console.log("Seeding complete!");
+console.log("🚀🚀 Seeding complete! 🚀🚀");

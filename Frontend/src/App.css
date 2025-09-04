@@ -91,3 +91,9 @@
   cursor: pointer;
   font-size: 0.9em;
 }
+img {
+  width: 250px; /* set desired width */
+  height: 250px; /* set desired height */
+  object-fit: cover; /* crop while keeping aspect ratio */
+  border-radius: 8px; /* optional: rounded corners */
+}
