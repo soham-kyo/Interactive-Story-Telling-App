@@ -110,6 +110,8 @@ graph TB
     style I fill:brown
     style J fill:yellow
     style K fill:gray
+    style B fill:white
+    style C fill:green
 ```
 
 ---
