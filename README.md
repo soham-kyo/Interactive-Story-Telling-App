@@ -100,7 +100,7 @@ graph TB
     style A fill:green
     style L fill:orange
     style M fill:red
-    style N fill:
+    style N fill:olive
     style O fill:green
     style D fill:purple
     style E fill:purple
